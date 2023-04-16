@@ -40,6 +40,7 @@
     <Folder Include="assets\images\player\" />
     <Folder Include="assets\sounds\" />
     <Folder Include="game\" />
+    <Folder Include="resources\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\images\atrezzo\atrezzo00.png" />

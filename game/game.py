@@ -54,6 +54,10 @@ class Game():
                 self.player.jump()
                 self.jump.play()
 
+            # Save screenshot
+            if keys[pygame.K_s]:
+                pygame.image.save(self.screen, f'screenshot{score:0000}.png')
+
             if ready_count > 0:
                 ready_count -= 1
                 if ready_count == 0:
